@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="KISAAN SEWA"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:background="#348E17"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        >
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:hint="Name"
+            android:inputType="text"
+            android:gravity="bottom"
+            android:id="@+id/name"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:inputType="number"
+            android:layout_weight="2"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:hint="Mobile No."
+            android:gravity="bottom"
+            android:id="@+id/mobileNo"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:inputType="text"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:hint="Area"
+            android:gravity="bottom"
+            android:id="@+id/area"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="bottom"
+                android:hint="City"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:id="@+id/city"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="bottom"
+                android:hint="State"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:id="@+id/state"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:inputType="textPassword"
+
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:hint="Password"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:id="@+id/password"/>
+
+        <EditText
+
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:inputType="textPassword"
+            android:gravity="bottom"
+            android:hint="Confirm Password"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:id="@+id/confirmPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:background="#348E17"
+            android:text="REGISTER"
+            android:textColor="#FFF"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:onClick="RegisterOnClick"
+            android:id="@+id/registerBtn"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
